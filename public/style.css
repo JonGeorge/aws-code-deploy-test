@@ -1,0 +1,27 @@
+body {
+  background-color: #323232;
+}
+
+h1 {
+  color: #ffac41;
+  font-family: 'Playfair Display';
+  margin: 0;
+}
+
+p {
+  color: white;
+  font-family: 'Overpass';
+  text-align: right;
+}
+
+#content {
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+}
