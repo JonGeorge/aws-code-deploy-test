@@ -24,7 +24,7 @@ os: linux
 #   may cause associated deployments to fail.
 files:
   - source: /
-    destination: /home/ec2-user/"Code deploy test"
+    destination: /home/ec2-user/Codedeploytest
   # - source:
   #   destination:
 # For deployments to Amazon Linux, Ubuntu Server, or RHEL instances,
