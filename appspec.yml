@@ -98,7 +98,7 @@ hooks:
   # During the AfterInstall deployment lifecycle event, run the commands
   #   in the script specified in "location".
   AfterInstall:
-    - location: scripts/run.sh
+    - location: /home/ec2-user/Codedeploytest/scripts/run.sh
       timeout: 90
       # runas:
     # - location:
