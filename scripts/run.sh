@@ -1,17 +1,8 @@
-#!/bin/bash
+echo "$(date) DEBUG: Starting server.js" >> quote-debug.txt
 
-cd /home/ec2-user/Codedeploytest
-
-echo "DEBUG: Installing dependencies"
-
-npm i
-
-wait
-
-echo "DEBUG: Dependencies have been installed"
-
-echo "DEBUG: Starting server.js"
+cd /home/ec2-user/Codedeploytest 
 
 node server.js &
 
+echo "$(date) DEBUG: Server started" >> quote-debug.txt
 
