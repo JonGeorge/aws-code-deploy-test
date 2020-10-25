@@ -43,7 +43,7 @@ permissions:
     #     except:
     owner: ec2-user
     #     group:
-    mode: 755
+    mode: 777
     #     acls:
     #       -
     #     context:
