@@ -1,10 +1,12 @@
 #!/bin/bash
 
+source /home/ec2-user/.bash_profile
+
 echo "$(date) DEBUG: Starting server.js" >> quote-debug.txt
 
-cd /home/ec2-user/Codedeploytest >> quote-debug.txt  
+cd /home/ec2-user/Codedeploytest
 
-echo "$(date) DEBUG: Running server.js in $(pwd)" >> quote-debug.txt
+echo "$(date) DEBUG: Going to run server.js in $(pwd)" >> quote-debug.txt
 
 node server.js &  
 
