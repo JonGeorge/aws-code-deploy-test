@@ -8,7 +8,7 @@ cd /home/ec2-user/Codedeploytest
 
 echo "$(date) Going to run server.js in $(pwd)" >> quote-debug.txt
 
-node server.js & >> quote-debug.txt 
+node server.js >> quote-debug.txt &
 
 echo "$(date) Server started" >> quote-debug.txt
 
